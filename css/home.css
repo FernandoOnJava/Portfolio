@@ -1,0 +1,32 @@
+/* Estilo para a secção de Início */
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    height: 100vh; /* Altura total da janela */
+    padding-left: 10%; /* Espaço à esquerda */
+    background-color: #515151; /* Fundo claro */
+    color: #333; /* Cor padrão do texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.inicio h1 {
+    font-size: 3rem; /* Tamanho grande para o nome */
+    font-weight: bold; /* Texto em negrito */
+    margin: 0; /* Remove margens externas */
+}
+
+.dynamic-text {
+    display: inline-block;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 350px; /* Adjust this based on the longest text */
+    text-align: left; /* Align text to the start */
+}
+
+.dynamic-text {
+    display: inline-block;
+    font-weight: bold; /* Destaque no texto dinâmico */
+}

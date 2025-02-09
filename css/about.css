@@ -1,0 +1,59 @@
+/* Secção Sobre Mim */
+.about {
+    padding: 4rem 10%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Grade de linguagens */
+.languages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Define a estrutura da grade */
+    gap: 2rem; /* Espaçamento entre os itens */
+    justify-items: center; /* Alinha os itens horizontalmente no centro */
+    align-items: start; /* Alinha os itens verticalmente ao topo */
+}
+
+/* Estilo de cada linguagem */
+.language {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.language:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Ícones dos Bootstrap Icons */
+.language-logo {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.language h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.language p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
