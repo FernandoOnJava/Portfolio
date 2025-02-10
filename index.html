@@ -12,20 +12,21 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/scroll-buttons.css">
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-</head>x
+</head>
 <body>
     <!-- Cabeçalho -->
     <nav class="nav-bar">
         <ul class="nav-list">
-            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contactos</a></li>
+            <lb class="nav-item"><a class="nav-link" onclick="scrollToTop()">Início</a></lb>
+            <li class="nav-item"><a class="nav-link" onclick="scrollToBottom()">Sobre</a></li>
             <li class="nav-item divider"></li>
             <li class="nav-item"><a class="nav-link" href="projetos.html ">Projetos</a></li>
         </ul>
@@ -34,7 +35,9 @@
     <!-- Secção Início -->
     <section id="inicio" class="inicio">
         <h1>Fernando Ferreira</h1>
-        <span class="dynamic-text" id="typed"></span>
+        <h2 class="dynamic-text">Desenvolvedor
+            <span class="dynamic-text" id="typed"></span>
+        </h2>
     </section>
 
     <!-- Secção Início -->
@@ -48,17 +51,23 @@
     </div>
 
     <!-- Secção Sobre Mim -->
-<section id="about" class="about">
-    <h1>Sobre Mim</h1>
-    <p>Sou o Fernando Ferreira, desenvolvedor apaixonado por criar soluções inteligentes e práticas para problemas complexos. Aqui estão as linguagens e tecnologias com as quais trabalho:</p>
+    <div class="about">
+        <h1>Sobre Mim</h1>
+        <p>Sou um estudante de programação informática na Escola Profissional de Setúbal, com grande interesse pelo desenvolvimento de software.
+            Apesar de ainda não ter experiência profissional, estou constantemente a aprender e a explorar novas tecnologias para expandir os meus conhecimentos.
+            Tenho especial interesse em desenvolvimento de software, web e jogos, e gosto de trabalhar em projetos desafiantes para melhorar as minhas competências.</p>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2025 Fernando Ferreira. Todos os direitos reservados.</p>
-    </footer>
-
-
+        <h2>Habilidades Técnicas</h2>
+        <div class="tech-icons">
+            <i class="fab fa-python" title="Python"></i>
+            <i class="fab fa-java" title="Java"></i>
+            <i class="fab fa-html5" title="HTML"></i>
+            <i class="fab fa-css3-alt" title="CSS"></i>
+            <i class="fas fa-code" title="C#"></i> <!-- Ícone genérico para C# -->
+        </div>
+    </div>
     <!-- JavaScript -->
     <script src="js/home.js"></script>
+    <script src="js/scroll-buttons.js"></script>
 </body>
 </html>

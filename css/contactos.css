@@ -1,0 +1,24 @@
+.contact {
+    text-align: center;
+    padding: 4rem 10%;
+    background-color: #515151;
+    color: white;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.contact-icons i {
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.contact-icons i:hover {
+    transform: scale(1.2);
+    color: #4CAF50;
+}

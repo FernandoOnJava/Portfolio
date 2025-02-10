@@ -5,13 +5,13 @@
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .button {
-    width: 40px;
-    height: 40px;
-    background-color: green;
+    width: 30px;
+    height: 30px;
+    background-color: #24212c;
     color: white;
     font-size: 24px;
     display: flex;
@@ -28,5 +28,5 @@
 }
 
 .button:hover {
-    background-color: darkgreen;
+    color:#90DDF0;
 }

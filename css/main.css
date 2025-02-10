@@ -1,6 +1,10 @@
+*{
+    color: #F0EDEE;
+}
+
 body {
     margin: 0;
     font-family: "JetBrains Mono", serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #0A090C;
 }
