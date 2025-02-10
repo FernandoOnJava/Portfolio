@@ -40,11 +40,11 @@
 
 .tech-icons i {
     font-size: 2.5rem;
-    color: #4CAF50;
+    color: #90DDF0;
     transition: transform 0.3s, color 0.3s;
 }
 
 .tech-icons i:hover {
     transform: scale(1.2);
-    color: #34a853;
+    color: #acdce8;
 }
